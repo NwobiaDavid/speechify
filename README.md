@@ -1,4 +1,4 @@
-##This is ✨Speechify✨
+## This is ✨Speechify✨
 it's a web app that uses AI models from hugging face to turn any text to a human-like speech
 
 ### Technologies
