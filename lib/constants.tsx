@@ -11,8 +11,8 @@ export interface SoundModel {
       url: "https://api-inference.huggingface.co/models/facebook/fastspeech2-en-ljspeech",
     },
     {
-      name: "Microsoft - Speecht5_tts",
-      url: 	"https://api-inference.huggingface.co/models/microsoft/speecht5_tts",
+      name: "Suno - Bark",
+      url: 	"https://api-inference.huggingface.co/models/suno/bark",
     },
     {
       name: "ESPNET - Ljspeech",

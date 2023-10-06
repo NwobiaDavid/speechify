@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar";
 import GenerateSoundView from "./views/GenerateSoundView";
 
 /**
@@ -6,7 +7,8 @@ import GenerateSoundView from "./views/GenerateSoundView";
  */
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex h-screen flex-col">
+      <NavBar />
       {/* Render the GenerateSoundView component */}
       <GenerateSoundView />
     </main>
