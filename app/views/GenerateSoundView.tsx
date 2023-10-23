@@ -67,14 +67,14 @@ export default function GenerateSoundView() {
   return (
     <div className="flex flex-col md:flex-row h-full ">
       
-      <div className="w-full md:w-1/3 p-4">
+      <div className="w-full md:w-1/3 p-4 ">
         <div className="ml-8 mr-8 mt-4 mb-4 text-xl">
           <h1>Text to Speech</h1>
         </div>
         {/* Render the form component for generating sound */}
         <GenerateSoundForm handleGetAudio={handleGetAudio} />
       </div>
-      <div className="w-full md:w-2/3 p-4 bg-gray-200 h-full">
+      <div className="w-full md:w-2/3 p-4  bg-[#EAD7BB] h-full">
         <div className="h-full flex justify-center items-center">
           {isLoading ? (
             // Show loader when fetching audio data
